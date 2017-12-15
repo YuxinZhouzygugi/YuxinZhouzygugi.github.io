@@ -26,7 +26,7 @@ function setup() {
   loadJSON('http://worldclockapi.com/api/json/utc/now',gotTime);
   navigator.geolocation.getCurrentPosition(showPosition);
  flowfield = new FlowField(20);
-  var text = createP("This is a postercard about Chile.<br>The flow of stars varies depending on the wind of Easter Island at the current time.<br>Click to find the tracks of stars");
+  var text = createP("The flow of stars varies depending on the wind of Easter Island at the current time.<br>Click to find the trials of stars");
   text.position(0,height);
   
 
